@@ -45,7 +45,7 @@ The functional overview of the different options that has the Dashboard are:
    - *Operational Tools*. User interface to access the functionalities of the Operational Tools.
 
 <p align="center">
-<img src="img/Dashboard_options.PNG" alt="Dashboard options" align="center" />
+<img src="img/Dashboard_options.png" alt="Dashboard options" align="center" />
 </p>
 
 </div>
