@@ -3,53 +3,51 @@
 ## Introduction
 <div align="justify">
 
-Although the pixel platform has 5 components, users interact with it through the dashboard user interface.
+Although the PIXEL Platform has 5 components, users interact with it through the dashboard user interface.
 The Pixel Dashboard and Notification component provides a web User Interface to interact with the platform. 
-It is needed to have an account to access to the platform
+It is needed to have an account to access to the platform.
 
 <p align="center">
 <img src="img/user_guide/introduction.png" alt="Introduction" align="center" />
 </p>
 
-  - *Server solution*. **REST API** created to interact from the client solution with the different entities needed in certain processes (Visualizations, Dashboard, Alerts, etc). It is a **CRUD API** from which the accesses to the No-SQL DB that is being used (**MongoDB**) are made. This API follows the **MVC pattern**. The element **View** would be the view of the client solution itself. Within the **API** there will be only **Model** and **Controller**. It has been developed in **Node.JS**.
-
 </div>
 <br/><br/>
 
-## Folder structure (Client solution)
+## Login
 <div align="justify">
 
-The folder structure is marked by the chosen framework (**Element UI**).
-
-Next picture depicts the folders and a brief description of their functionality.
+After entering the url of the PIXEL platform, a login form appears allowing you access the application.  You need to have an account to enter into the application. Depending on your permissions you will have different functionalities available.
 <p align="center">
-<img src="img/Meaning_folderStructure.PNG" alt="Views folder" align="center" />
+<img src="img/user_guide/Login_page.png" alt="Login" align="center" />
 </p>
 
 </div>
 <br/><br/>
 
-## Add new views
+## Layout
 <div align="justify">
 
-In case to add a new view to the platform the developer has to create the view inside the views folder (see next figure), creating its container folder.
+The pixel platform has 3 main areas:
+  - *Menu*. Provides access to different functionalities. (1)
+  - *Header*. Provides navigation and configuration properties. (2)
+  - *Content*. Provides the functionalities to interact with. (3)
 
 <p align="center">
-<img src="img/Views_folder.PNG" alt="Views folder" align="center" />
+<img src="img/user_guide/layout.png" alt="Layout" align="center" />
 </p>
 
-Once the view has been created it's time to add the view to the file responsible to manage the routes in the platform (router/index.js).
+**Menu**
+The menu allows the user to access all the available functionalities of the platform.
+By default, the menu appears in extended mode, but it can be extended through the compact / extend icon.
 
-In this file, in addition to the paths for the different menu entries, it is configured:
-
-  - **Navigability** between views. Even if the views don't have a menu entry.
-  - **Icons** of the views that have menu entry.
-  - **Nesting** of views within the same menu entry.
-
-Next figure depicts the configuration in the index.js for the Map menu entry.
 <p align="center">
-<img src="img/map_menuEntry.PNG" alt="Configuration for the Map menu entry" align="center" />
+<img src="img/user_guide/menu.png" alt="Menu" align="center" />
 </p>
+
+
+**Header**
+
 
 </div>
 <br/><br/>
