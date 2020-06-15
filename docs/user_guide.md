@@ -114,48 +114,33 @@ The user functionality allows to manage the users that can access to the platfor
 <img src="img/user_guide/UserList.png" alt="Menu" align="center" />
 </p>
 
-The **syntax of the tag** to be created it will be different depending on its location within the view:
-  - *HTML Code*. Next figure illustrates the syntax of the label in this case. This is the title tag within the widget region.
-<p align="center">
-<img src="img/HTML_tag.PNG" alt="Sample of tag included in the HTML Code" align="center" />
-</p>
-
-  - *JavaScript Code*. Syntax is different in this case (see next figure). It is necessary to use the **'$t' method** that injects the necessary code to translate the tags by going to the corresponding file and region to retrieve the text of the tag.
+If you want to create a new user, select the "New user" button. After selecting the button, a form appears that allows to define the properties of a new user.
 
 <p align="center">
-<img src="img/JavaScript_tag.PNG" alt="Sample of tag included in the JavaScript Code" align="center" />
+<img src="img/user_guide/NewUser.png" alt="Menu" align="center" />
 </p>
 
 </div>
 <br/><br/>
 
-## Notifications
+## Overview and Views
 <div align="justify">
 
-PIXEL Dashboard & Notifications includes two options to show notifications or messages to the end-user (without the need to build a custom popup or modal dialog).
+These functionalities allow to define and show the most suitable visualizations to monitor the port activity depending on the specific needs of each port.
 
-  - *Message*. Method used to **notify a message to the end-user**. For example, the result of a validation. There are several levels of notifications: **warning, error or successful**. Also it is possible to indicate the time interval during which the message will be visible. The syntax of this type of notification is depicted in the next figure.
+Note: Most of the visualizations that a user can create are related with model executions. Before creating these visualizations, the user has to add a model an run it form the operational tools functionality.
+
+**Views**<br/>
+From the *list of views* , the user can manage the mots appropriate visualizations to control the port activity. The list of views provides a search mechanism (1) to filter by name, source or type the views showed in the table. The Add (2) button allows to create a new visualization. For each visualization (4), the user can change the visualization status.   Only the enabled visualization will appear in the overview.
+
 <p align="center">
-<img src="img/message.PNG" alt="Syntax for messages" align="center" />
+<img src="img/user_guide/ListViews.png" alt="Menu" align="center" />
 </p>
 
-  Previous figure is showing a popup notifying that the delete action has been successful. 
-  
-  Next picture illustrate the appearance of this type of message. In that case, the result of a validation. A warning message.
+The add visualization functionality has three steps.
+  -	1st Step: the user chooses the model for which he wants to create a new visualization. Currently the  platform provides visualization for the PAS model and for the Predictive ETD algorithm. Moreover, the user can create a custom visualization.
 <p align="center">
-<img src="img/message_Example.PNG" alt="Syntax for messages" align="center" />
-</p>
-
-  - *Notification*. Method used to show the **result of an action** (entity created, updated, etc). There are different levels of messages attending to the result or priority of the action: warning, successful, error. The syntax of this type of message is depicted in the next figure.
-<p align="center">
-<img src="img/notification.PNG" alt="Syntax for messages" align="center" />
-</p>
-
-  Previous figure is showing a popup notifying that the entity has been created successfully.
-
-  Next picture illustrates the appearance of this type of notification. In that case, an entity has been updated successfully.
-<p align="center">
-<img src="img/notification_Example.PNG" alt="Syntax for messages" align="center" />
+<img src="img/user_guide/FirstStep.png" alt="Menu" align="center" />
 </p>
 
 </div>
