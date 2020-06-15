@@ -101,13 +101,18 @@ The list of roles shows the roles defined and provides the functionality to mana
 <img src="img/user_guide/RoleList.png" alt="Menu" align="center" />
 </p>
 
-If you want to create a new role, select the "New role" button. After selecting the button, a form (Figure 18) appears that allows to define the characteristics of the new role.
+If you want to create a new role, select the "New role" button. After selecting the button, a form appears that allows to define the characteristics of the new role.
 
 <p align="center">
 <img src="img/user_guide/NewRole.png" alt="Menu" align="center" />
 </p>
 
-If PIXEL wants to **support a new language**, the developer should go to the  index.js file (in the language folder) and generate the necessary files (according to the content of index.js file). Finally, it will be necessary to create a JavaScript file named with the ISO Code for the new language.
+**Users**<br/>
+The user functionality allows to manage the users that can access to the platform. In the list of users functionality provides a list of users created.
+
+<p align="center">
+<img src="img/user_guide/UserList.png" alt="Menu" align="center" />
+</p>
 
 The **syntax of the tag** to be created it will be different depending on its location within the view:
   - *HTML Code*. Next figure illustrates the syntax of the label in this case. This is the title tag within the widget region.
