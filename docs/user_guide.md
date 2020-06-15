@@ -53,7 +53,7 @@ The functionalities available are:
   - *PAS Information*. Manage the Port Activity Scenario information.
   - *Map*. Geographical information system with real-time sensors.
   - *Alerts*. Manage alerts definition and subscription.
-  - *Operational Tool. Manage Models and Algorithms.
+  - *Operational Tools*. Manage Models and Algorithms.
 
 **Header**<br/>
 The header provides a ser of functionalities to navigates between different sections, search elements, language selection and profile information.
@@ -77,30 +77,34 @@ On the right hand-side, you will find the following functionalities:
 <img src="img/user_guide/header_right-side.png" alt="Menu" align="center" />
 </p>
 
+**Content**<br/>
+The content area is the largest display area and shows the content of the functionality selected in the menu.
+At the top, there is a tab bar that allow quick access to previously opened content.
+
+<p align="center">
+<img src="img/user_guide/content.png" alt="Menu" align="center" />
+</p>
+
 </div>
 <br/><br/>
 
-## Internationalization
+## Permission
 <div align="justify">
 
-Platform PIXEL has the i18n configurations necessary to give support for the following languages:
+The permission functionality allows you to manage the roles and users of the platform. This functionality uses internally the security layer of PIXEL.
 
-  - *English*.
-  - *Spanish*.
-  - *French*.
-  - *Italian*.
-  - *Greek*.
-
-The solution includes a folder called lang where the files for each  the languages it supports are located. To identify these languages they are called according to their **ISO Language Codes**. 
-
+**Role permission**<br/>
+The role permission functionality allows to manage the roles of the platform “the different types of users that will use the platform and what actions they can execute”.
+This functionality will only be available to administrators
+The list of roles shows the roles defined and provides the functionality to manage them  (Create, Edit, Delete).
 <p align="center">
-<img src="img/language_folder.PNG" alt="Language folder" align="center" />
+<img src="img/user_guide/RoleList.png" alt="Menu" align="center" />
 </p>
 
-The entries in these files are structured in regions according to the functionality to which the tag to be translated belongs. The figure below depicts the entries within the region alerts for the english file (**en.js**, according to the nomenclature mentioned above).
+If you want to create a new role, select the "New role" button. After selecting the button, a form (Figure 18) appears that allows to define the characteristics of the new role.
 
 <p align="center">
-<img src="img/alerts_region.PNG" alt="Entries for Alerts' region" align="center" />
+<img src="img/user_guide/NewRole.png" alt="Menu" align="center" />
 </p>
 
 If PIXEL wants to **support a new language**, the developer should go to the  index.js file (in the language folder) and generate the necessary files (according to the content of index.js file). Finally, it will be necessary to create a JavaScript file named with the ISO Code for the new language.
