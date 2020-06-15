@@ -37,7 +37,7 @@ The pixel platform has 3 main areas:
 <img src="img/user_guide/layout.png" alt="Layout" align="center" />
 </p>
 
-**Menu**
+**Menu**<br/>
 The menu allows the user to access all the available functionalities of the platform.
 By default, the menu appears in extended mode, but it can be extended through the compact / extend icon.
 
@@ -46,7 +46,7 @@ By default, the menu appears in extended mode, but it can be extended through th
 </p>
 
 
-**Header**
+**Header**<br/>
 
 
 </div>
