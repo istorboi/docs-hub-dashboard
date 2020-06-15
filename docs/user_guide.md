@@ -143,6 +143,34 @@ The add visualization functionality has three steps.
 <img src="img/user_guide/FirstStep.png" alt="Menu" align="center" />
 </p>
 
+  -	2nd Step: In the second step, the user chooses the visualization most appropriated for the analysis he wants to perform.
+<p align="center">
+<img src="img/user_guide/SecondStep.png" alt="Menu" align="center" />
+</p>
+
+  -	3rd Step: In the third step, the user define the name of the visualization and select the proper model execution to be shown.
+<p align="center">
+<img src="img/user_guide/ThirdStep.png" alt="Menu" align="center" />
+</p>
+
+**Process of creating and visualizing a new view**<br/>
+To show a new visualization on the overview you need to follow these steps:
+  - In the list view, click the add button (1)
+  - Complete the three steps for creating a new  visualization (2)
+  -	Look for the visualization created (3)
+  -	Change the status from disabled to enabled (4)
+<p align="center">
+<img src="img/user_guide/CreateNewView.png" alt="Menu" align="center" />
+</p>
+
+If a user wants to create a custom visualization, independent from any model, in the process of creating a new visualization, the user has to select the custom option in the step 1. In the next figure, you  can see how a user can create a custom visualization to show in an iframe the content of other web.
+
+<p align="center">
+<img src="img/user_guide/CustomView.png" alt="Menu" align="center" />
+</p>
+
+[TO-DO] [HERE]
+
 </div>
 <br/><br/>
 
