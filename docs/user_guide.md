@@ -45,9 +45,37 @@ By default, the menu appears in extended mode, but it can be extended through th
 <img src="img/user_guide/menu.png" alt="Menu" align="center" />
 </p>
 
+The functionalities available are:
+  - *Overview*. List of information visualization to control port operations.
+  - *Views*. Manage the visualizations to be shown in the overview functionality.
+  - *Dashboard*. Manage the creation of reports.
+  - *Permission*. Manage the roles and uses of the platform.
+  - *PAS Information*. Manage the Port Activity Scenario information.
+  - *Map*. Geographical information system with real-time sensors.
+  - *Alerts*. Manage alerts definition and subscription.
+  - *Operational Tool. Manage Models and Algorithms.
 
 **Header**<br/>
+The header provides a ser of functionalities to navigates between different sections, search elements, language selection and profile information.
+On the left-hand side, you will find the following functionalities:
+ -	*Collapse / Expand menu*
+ -	*Breadcrumbs*
+ -	*Functionality button bar*
 
+<p align="center">
+<img src="img/user_guide/header.png" alt="Menu" align="center" />
+</p>
+
+On the right hand-side, you will find the following functionalities:
+  - *Search functionality* (1)
+  - *Language selection* (2)
+  - *Profile options* (3)
+  - *Profile details* (4)
+  - *LogOut* (5)
+
+<p align="center">
+<img src="img/user_guide/header_right-side.png" alt="Menu" align="center" />
+</p>
 
 </div>
 <br/><br/>
