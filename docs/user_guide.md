@@ -233,21 +233,21 @@ After creating a new rule (Add Rule button), the user can complete the content o
 <img src="img/user_guide/rulesList.png" alt="Menu" align="center" />
 </p>
 
-**Cargoes category**<br/>
+*Cargoes category*<br/>
 The form for the creation of charge categories is divided into 3 steps. In the Step 1 general property information is filled in. In the step 2 preference properties are filled in. In the step 3 range property information is filled in.
 
 <p align="center">
 <img src="img/user_guide/createCargoCategory.png" alt="Menu" align="center" />
 </p>
 
-**ShiftWork**<br/>
+*ShiftWork*<br/>
 The form for the creation of ShiftWorks allows you to create different work schedules for a port that will later be assigned to different activities.
 
 <p align="center">
 <img src="img/user_guide/createShiftWork.png" alt="Menu" align="center" />
 </p>
 
-**Priorities**<br/>
+*Priorities*<br/>
 The priorities form allows you to define the priorities for attending to the different cargo categories.
 
 <p align="center">
@@ -263,36 +263,57 @@ After creating a new resource (Add Resource button), the user can complete the c
 <img src="img/user_guide/resourceList.png" alt="Menu" align="center" />
 </p>
 
+*Area*<br/>
+The area form allows you to define a new port Area where a where port activities take place.
 
-
-  - *controllers*. There will be controllers for each entity. **API entry point**. It is where the redirection of the method exposed to the internal method of our API is done. It makes use of the service classes.
 <p align="center">
-<img src="img/controller_file.PNG" alt="Example of controller file" align="center" />
+<img src="img/user_guide/createArea.png" alt="Menu" align="center" />
 </p>
 
-  - *services*. It performs the queries against the database for this purpose makes use of the models.
+*Machine*<br/>
+The Add Machine form allows you to create a new machine and it is divided into 3 steps. In the Step 1 general property information is filled in. In the step 2 throughput properties are filled in. In the step 3 range consumption information is filled in.
+
 <p align="center">
-<img src="img/service_file.PNG" alt="Example of controller file" align="center" />
+<img src="img/user_guide/createMachine.png" alt="Menu" align="center" />
 </p>
 
-  - *models*. It is in these classes that the object to be used for our entity will be defined (**properties, relations with other entities, etc.**).
+**Supplier Chain**<br/>
+The supplier chain functionality allows to create the information related with a supply chain and its steps. It is possible to create several supply chains. After finalising the definition of the supply chains, it is possible to publish the information (export to Information Hub) to be used by the PAS Model.
+After creating a new supply chain (Add Supplier Chain), the user can complete the content of the supply chain through the Edit button that opens a new page. From this page, it is possible to define the details, steps, and compatibilities of a supply chain.
+
 <p align="center">
-<img src="img/model_file.PNG" alt="Example of controller file" align="center" />
+<img src="img/user_guide/supplierChainList.png" alt="Menu" align="center" />
 </p>
 
-There is a configuration file (index.js) where the developer must add a few lines for each of the entities to be exposed. These lines are related to the controller of the entity. This is because the access point to the API is through the controller.
+*Detail*<br/>
+The detail form allows you to define the detail properties of the supply chain.
 
-This file is formed by two blocks:
-
-  - *First block*. Where the **import of the controller's entity** is done.
 <p align="center">
-<img src="img/import_indexJS.PNG" alt="Imports for the controller's entity" align="center" />
+<img src="img/user_guide/createSupplierChain.png" alt="Menu" align="center" />
 </p>
 
-  - *Second block*. Where the **path of the entity** of that controller is indicated.
+*Steps*<br/>
+The Add Steps form allows you to create the different steps of the supply chain and it is divided into 3 steps. In the Step 1 general property information is filled in. In the step 2 scheduling properties are filled in. In the step 3 work information is filled in.
+
 <p align="center">
-<img src="img/route_indexJS.PNG" alt="Example of controller file" align="center" />
+<img src="img/user_guide/createSteps.png" alt="Menu" align="center" />
 </p>
+
+*Compatibility*<br/>
+The compatibility form allows you to define the elements (cargo categories, direction, areas and shift works )  compatible with the supply chain.
+
+<p align="center">
+<img src="img/user_guide/createCompatibility.png" alt="Menu" align="center" />
+</p>
+
+**Publish - Export to Information Hub**<br/>
+After defining rules, resources, and supply chains, you should publish this information to be available for the PAS Model. To publish the information created you only need to press the “Export to IH” button available in in list of rules, resources, and supply chains.  After executing the action, you will see  the execution result with the name of the index created.  You will need to specify the name of the index when you run a new instance of the model.
+
+<p align="center">
+<img src="img/user_guide/exportToIH.png" alt="Menu" align="center" />
+</p>
+
+Every time that a user updates any information related with the Port Activity scenario it is needed to use export the information (Export to IH) to have the new data available for the PAS model.
 
 </div>
 <br/><br/>
