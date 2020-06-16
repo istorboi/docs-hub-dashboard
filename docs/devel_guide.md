@@ -7,7 +7,7 @@ For the development of the Dashboard & Notifications component of PIXEL it has b
 
   - *Client solution*. Main component of this module and accesible via web to show the results obtained in the platform. It has been developed in **Element UI (Open source framework based on Vue.JS)**. There is a complete guide of how to develop with this framework [here](https://element.eleme.io/#/en-US). Next picture depicts the more important features of this solution.
 <p align="center">
-<img src="img/Dashboard_features.PNG" alt="Views folder" align="center" />
+<img src="img/Dashboard_features.png" alt="Views folder" align="center" />
 </p>
 
   - *Server solution*. **REST API** created to interact from the client solution with the different entities needed in certain processes (Visualizations, Dashboard, Alerts, etc). It is a **CRUD API** from which the accesses to the No-SQL DB that is being used (**MongoDB**) are made. This API follows the **MVC pattern**. The element **View** would be the view of the client solution itself. Within the **API** there will be only **Model** and **Controller**. It has been developed in **Node.JS**.
