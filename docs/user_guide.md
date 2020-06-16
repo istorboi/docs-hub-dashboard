@@ -225,7 +225,45 @@ The information has been divided in 3 sections:
 <img src="img/user_guide/pas_information.png" alt="Menu" align="center" />
 </p>
 
-Among these folders, the following stand out:
+**Rules**<br/>
+The rules functionality allows to create the information related with cargo types, shift works and priorities. It is possible to create several rules. After finalising the definition of the rules, it is possible to publish the information (export to Information Hub) to be used by the PAS Model.
+After creating a new rule (Add Rule button), the user can complete the content of the rule through the Edit button that opens a new page. From this page, it is possible to define cargo categories, shift works and priorities.
+
+<p align="center">
+<img src="img/user_guide/rulesList.png" alt="Menu" align="center" />
+</p>
+
+**Cargoes category**<br/>
+The form for the creation of charge categories is divided into 3 steps. In the Step 1 general property information is filled in. In the step 2 preference properties are filled in. In the step 3 range property information is filled in.
+
+<p align="center">
+<img src="img/user_guide/createCargoCategory.png" alt="Menu" align="center" />
+</p>
+
+**ShiftWork**<br/>
+The form for the creation of ShiftWorks allows you to create different work schedules for a port that will later be assigned to different activities.
+
+<p align="center">
+<img src="img/user_guide/createShiftWork.png" alt="Menu" align="center" />
+</p>
+
+**Priorities**<br/>
+The priorities form allows you to define the priorities for attending to the different cargo categories.
+
+<p align="center">
+<img src="img/user_guide/addPriorities.png" alt="Menu" align="center" />
+</p>
+
+**Resources**<br/>
+The resources functionality allows to create the information related with areas and machines. It is possible to create several resources. After finalising the definition of the resources, it is possible to publish the information (export to Information Hub) to be used by the PAS Model.
+
+After creating a new resource (Add Resource button), the user can complete the content of the resource through the Edit button that opens a new page. From this page, it is possible to define areas and machines.
+
+<p align="center">
+<img src="img/user_guide/resourceList.png" alt="Menu" align="center" />
+</p>
+
+
 
   - *controllers*. There will be controllers for each entity. **API entry point**. It is where the redirection of the method exposed to the internal method of our API is done. It makes use of the service classes.
 <p align="center">
