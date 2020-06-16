@@ -169,7 +169,18 @@ If a user wants to create a custom visualization, independent from any model, in
 <img src="img/user_guide/CustomView.png" alt="Menu" align="center" />
 </p>
 
-[TO-DO] [HERE]
+**Overviews**<br/>
+The overview is the main control panel to monitor and analyse the port activities.  The overview will show all the enabled views in a table of two cols. Next figure depicts the layout of the visualizations showed in the overview.
+
+<p align="center">
+<img src="img/user_guide/overview_example.png" alt="Menu" align="center" />
+</p>
+
+Next picture illustrates an example of the overviews with three visualizations.
+
+<p align="center">
+<img src="img/user_guide/Layout_overview.png" alt="Menu" align="center" />
+</p>
 
 </div>
 <br/><br/>
