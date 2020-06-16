@@ -194,52 +194,35 @@ This functionality allows the users to create flexible dashboards and reports th
 <img src="img/user_guide/dashboard_management.png" alt="Menu" align="center" />
 </p>
 
-For example:
+**Dashboard creation / edition**<br/>
+If a user wants to create a new dashboard (click Add button) or edit an existing one (click Edit button)
 
-  - *otools.js*. This is the file where the **PIXEL Operational Tools API endpoints** will be located.
 <p align="center">
-<img src="img/Endpoints_OTools.PNG" alt="Different endpoints from Operational Tools API" align="center" />
+<img src="img/user_guide/dashboard_creation.png" alt="Menu" align="center" />
 </p>
 
-  - *dataextractor_IH.js*. This file centralises all the **IH dataextractor API endpoints**.
+**Dashboard visualization and print**<br/>
+If a user wants to create a new dashboard (click Add button) or edit an existing one (click Edit button)
+
 <p align="center">
-<img src="img/Endpoints_IH.PNG" alt="Different endpoints from Information Hub API" align="center" />
-</p>
-
-  - *PAS_IH.js*. It contains the necessary methods to complete the PAS (Port Activity Scenario) forms. This information is stored in the **PIXEL Information Hub** and in this case there is no specific API. Queries are performed directly using the **elasticsearch REST API**.
-<p align="center">
-<img src="img/Endpoints_elasticsearch.PNG" alt="Different endpoints from elasticsearch REST API" align="center" />
-</p>
-
-  - *resource.js*. It contains the endpoints exposed by the CRUD API created in the server solution.
-<p align="center">
-<img src="img/Endpoints_resource_entity.PNG" alt="Different endpoints for the resource's entity" align="center" />
-</p>
-
-Each of these files has in common the import that is made in the first line. This imports the request class that will be used for each set of endpoints.
-
-This request class contains:
-
-  - *Base url* used in the request for each endpoint.
-  - *Timeout configuration*. Can be different for each API.
-  - *Construction of the response object* for each request.
-
-Next figure depicts an example of request class (for the Operational Tools endpoints in this case).
-<p align="center">
-<img src="img/request_OTools.PNG" alt="Example of request class for the Operational Tools" align="center" />
+<img src="img/user_guide/dashboard_visualization.png" alt="Menu" align="center" />
 </p>
 
 </div>
 <br/><br/>
 
-### Add a new entity to the server solution
+### PAS Information
 <div align="justify">
 
-The server solution has been developed following the **MVC pattern (Model-View-Controller)**. Therefore, this pattern will be followed in case to add a new entity that will interact with the Dashboard.
+The PAS Information allows to define the information needed to use the Port Activity Scenario model (PAS Model).
 
-Next figure depicts the folder structure of the server solution.
+The information has been divided in 3 sections:
+  -	*Rules*. Cargo Categories, Shift works and priorities information.
+  -	*Resources*. Machines and Areas information.
+  -	*Supplier Chain*. Suppier chain information.
+
 <p align="center">
-<img src="img/folder_structure.PNG" alt="Folder structure for the server solution" align="center" />
+<img src="img/user_guide/pas_information.png" alt="Menu" align="center" />
 </p>
 
 Among these folders, the following stand out:
