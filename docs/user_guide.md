@@ -185,15 +185,13 @@ Next picture illustrates an example of the overviews with three visualizations.
 </div>
 <br/><br/>
 
-## Access to APIs
+## Dashboard - Reporting
 <div align="justify">
 
-Dashboard interacts with the APIs of other components (as well as with the API of the server solution). These requests are not made directly from the corresponding view where necessary.
-
-There is a folder called API where there is a JavaScript file for each of the entities or functionalities accessed via API.
+This functionality allows the users to create flexible dashboards and reports thanks to a mechanism that lets the user insert different types of information in any place/size of the report. During the creation of the dashboard the user can drag and drop and resize any visual component to make the most adequate report for each case.
 
 <p align="center">
-<img src="img/API_folder.PNG" alt="API folder" align="center" />
+<img src="img/user_guide/dashboard_management.png" alt="Menu" align="center" />
 </p>
 
 For example:
