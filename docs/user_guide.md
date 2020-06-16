@@ -318,22 +318,66 @@ Every time that a user updates any information related with the Port Activity sc
 </div>
 <br/><br/>
 
-### Add new visualizations
+### Map
 <div align="justify">
    
-The src/components folder contains the various components of the dashboard client solution.
+The maps functionality allows the user to see the location of several devices or sensors. It is possible to filter by a specific type of device. In the figure, you can see the location in the map of the tide sensors that measure the tide level. If you select (click on the icon) a sensor, a new panel appears showing details of the sensor and the captured values.
 
-Among them, the widget folder stands out. This is where the **different widgets / visualizations** used to represent the information within the **PIXEL Platform** are created (displays associated with the execution of a model).
-
-Therefore, in case you want to add a new type of visualization, this is where it should be done.
-
-Currently, this folder is structured in the following subfolders:
-  - *amcharts*. Views created using this JavaScript library.
-  - *echart*. Views created using this JavaScript library.
-  - *custom*. Custom views without the specific use of any JavaScript library.
-  - *mixins*. Folder where we have files that help us to represent the visualizations. In this case the file responsible for resizing them (*resize.js*).
+<p align="center">
+<img src="img/user_guide/Map.png" alt="Menu" align="center" />
+</p>
 
 </div>
+<br/><br/>
 
+### Operational Tools
+<div align="justify">
+PIXEL is a flexible analytical platform; through the operational tools (OP Tools) you can install new analytical functionalities and perform as many analyses as you need. 
+In PIXEL the analytical functions have been grouped in 2 types. The functionalities based on models(1) and the functionalities based on predictive algorithms (2). Both can be executed on demand (3) or can be programmed to be executed periodically (4) . After the executions (5), graphs (6) or KPIs (7) can be created to show the results of the model/algorithm executions
 
- 
+<p align="center">
+<img src="img/user_guide/otools_diagram.png" alt="Menu" align="center" />
+</p>
+
+**Models**<br/>
+The models functionality is part of the OP Tools and  allows you to manage the models added/installed in the platform . The Add model button allow us to create/ add a new model into the PIXEL platform, the information needed is the label or name of the model and the docker name.  All the models are encapsulated into docker components.
+
+<p align="center">
+<img src="img/user_guide/modelsManagement.png" alt="Menu" align="center" />
+</p>
+
+*Schedule*<br/>
+The schedule functionality allows you to manage the scheduled executions of a model. To Add  a new schedule (1) you have to provide the name of the schedule, the parameters of the model and the schedule information. Each model has different Parameters  (2), in the example we have chosen the “vessels-SEI” property.
+
+<p align="center">
+<img src="img/user_guide/scheduleModel.png" alt="Menu" align="center" />
+</p>
+
+After the model is executed, it is possible to verify the execution results from the view button (1). At any moment, the user can pause / run (play)  (2) the scheduled executions of a model.
+
+<p align="center">
+<img src="img/user_guide/executionResult.png" alt="Menu" align="center" />
+</p>
+
+*Run Model*<br/>
+The Run functionality allows you to manage the on demand executions of a model. To Add  a new Run(1) you have to provide the name of the run and the parameters of the model. Each model has different Parameters. As soon as you confirm the run, the model is executed. The status property of the table will show the “Finished” value when the execution ends. From the view (2) button, it is possible to view the result of the execution.
+
+<p align="center">
+<img src="img/user_guide/runModel.png" alt="Menu" align="center" />
+</p>
+
+**Predictive Algorithms**<br/>
+The Predictive Algorithms functionality is part of the OP Tools and  allows you to manage the algorithms added/installed in the platform. The functionality is equivalent to the model functionality, but in this case instead of running Artificial Intelligent Models, it runs predictive algorithms.
+
+<p align="center">
+<img src="img/user_guide/predictiveManagement.png" alt="Menu" align="center" />
+</p>
+
+**KPIs**<br/>
+The KPI functionality allows you to create different KPI related with model execution. There are two types of KPIs, environmental KPIs and Operational KPI. You can define as many KPIs (1) as you need and show the trends of them (2).
+
+<p align="center">
+<img src="img/user_guide/kpiManagement.png" alt="Menu" align="center" />
+</p>
+
+</div>
