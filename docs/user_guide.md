@@ -343,7 +343,7 @@ In PIXEL the analytical functions have been grouped in 2 types. The functionalit
 The models functionality is part of the OP Tools and  allows you to manage the models added/installed in the platform . The Add model button allow us to create/ add a new model into the PIXEL platform, the information needed is the label or name of the model and the docker name.  All the models are encapsulated into docker components.
 
 <p align="center">
-<img src="img/user_guide/modelsManagement.png" alt="Menu" align="center" />
+<img src="docs-hub-dashboard/docs/img/user_guide/modelsManagement.png" alt="Menu" align="center" />
 </p>
 
 *Schedule*<br/>
