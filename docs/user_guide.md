@@ -34,7 +34,7 @@ The pixel platform has 3 main areas:
   - *Content*. Provides the functionalities to interact with. (3)
 
 <p align="center">
-<img src="img/user_guide/layout.png" alt="Layout" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/layout.png" alt="Layout" align="center" />
 </p>
 
 **Menu**<br/>
