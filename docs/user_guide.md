@@ -74,7 +74,7 @@ On the right hand-side, you will find the following functionalities:
   - *LogOut* (5)
 
 <p align="center">
-<img src="img/user_guide/header_right-side.png" alt="Menu" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/header_right-side.png" alt="Header right side" align="center" />
 </p>
 
 **Content**<br/>
@@ -82,7 +82,7 @@ The content area is the largest display area and shows the content of the functi
 At the top, there is a tab bar that allow quick access to previously opened content.
 
 <p align="center">
-<img src="img/user_guide/content.png" alt="Menu" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/content.png" alt="Content" align="center" />
 </p>
 
 </div>
@@ -98,13 +98,13 @@ The role permission functionality allows to manage the roles of the platform “
 This functionality will only be available to administrators
 The list of roles shows the roles defined and provides the functionality to manage them  (Create, Edit, Delete).
 <p align="center">
-<img src="img/user_guide/RoleList.png" alt="Menu" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/RoleList.png" alt="List of Roles" align="center" />
 </p>
 
 If you want to create a new role, select the "New role" button. After selecting the button, a form appears that allows to define the characteristics of the new role.
 
 <p align="center">
-<img src="img/user_guide/NewRole.png" alt="Menu" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/NewRole.png" alt="New Role" align="center" />
 </p>
 
 **Users**<br/>
