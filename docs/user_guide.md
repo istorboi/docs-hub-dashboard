@@ -211,7 +211,7 @@ If a user wants to create a new dashboard (click Add button) or edit an existing
 </div>
 <br/><br/>
 
-### PAS Information
+## PAS Information
 <div align="justify">
 
 The PAS Information allows to define the information needed to use the Port Activity Scenario model (PAS Model).
@@ -318,7 +318,7 @@ Every time that a user updates any information related with the Port Activity sc
 </div>
 <br/><br/>
 
-### Map
+## Map
 <div align="justify">
    
 The maps functionality allows the user to see the location of several devices or sensors. It is possible to filter by a specific type of device. In the figure, you can see the location in the map of the tide sensors that measure the tide level. If you select (click on the icon) a sensor, a new panel appears showing details of the sensor and the captured values.
@@ -330,7 +330,7 @@ The maps functionality allows the user to see the location of several devices or
 </div>
 <br/><br/>
 
-### Operational Tools
+## Operational Tools
 <div align="justify">
 PIXEL is a flexible analytical platform; through the operational tools (OP Tools) you can install new analytical functionalities and perform as many analyses as you need. 
 In PIXEL the analytical functions have been grouped in 2 types. The functionalities based on models(1) and the functionalities based on predictive algorithms (2). Both can be executed on demand (3) or can be programmed to be executed periodically (4) . After the executions (5), graphs (6) or KPIs (7) can be created to show the results of the model/algorithm executions
