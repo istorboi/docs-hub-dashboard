@@ -8,7 +8,7 @@ The Pixel Dashboard and Notification component provides a web User Interface to 
 It is needed to have an account to access to the platform.
 
 <p align="center">
-<img src="img/user_guide/introduction.png" alt="Introduction" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/introduction.png" alt="Introduction" align="center" />
 </p>
 
 </div>
@@ -19,7 +19,7 @@ It is needed to have an account to access to the platform.
 
 After entering the url of the PIXEL platform, a login form appears allowing you access the application.  You need to have an account to enter into the application. Depending on your permissions you will have different functionalities available.
 <p align="center">
-<img src="img/user_guide/Login_page.png" alt="Login" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/Login_page.png" alt="Login" align="center" />
 </p>
 
 </div>
@@ -42,7 +42,7 @@ The menu allows the user to access all the available functionalities of the plat
 By default, the menu appears in extended mode, but it can be extended through the compact / extend icon.
 
 <p align="center">
-<img src="img/user_guide/menu.png" alt="Menu" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/menu.png" alt="Menu" align="center" />
 </p>
 
 The functionalities available are:
@@ -63,7 +63,7 @@ On the left-hand side, you will find the following functionalities:
  -	*Functionality button bar*
 
 <p align="center">
-<img src="img/user_guide/header.png" alt="Menu" align="center" />
+<img src="https://github.com/pixel-ports/docs-hub-dashboard/raw/master/docs/img/user_guide/header.png" alt="Header" align="center" />
 </p>
 
 On the right hand-side, you will find the following functionalities:
