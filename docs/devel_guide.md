@@ -174,7 +174,7 @@ Next figure depicts an example of request class (for the Operational Tools endpo
 </div>
 <br/><br/>
 
-### Add a new entity to the server solution
+## Add a new entity to the server solution
 <div align="justify">
 
 The server solution has been developed following the **MVC pattern (Model-View-Controller)**. Therefore, this pattern will be followed in case to add a new entity that will interact with the Dashboard.
@@ -218,7 +218,7 @@ This file is formed by two blocks:
 </div>
 <br/><br/>
 
-### Add new visualizations
+## Add new visualizations
 <div align="justify">
    
 The src/components folder contains the various components of the dashboard client solution.
